@@ -1,0 +1,13 @@
+{
+  "plan_name": "Do zero aos 5 km",
+  "hr_cap": null,
+  "pace_offset_sec": 0,
+  "push_days_ahead": 7,
+  "workout_prefix": "C5K",
+  "weekly": {
+    "Ter": "Musculação (pernas pesado)",
+    "Qua": "Tênis",
+    "Sex": "Tênis",
+    "Dom": "Descanso"
+  }
+}

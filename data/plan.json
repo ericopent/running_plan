@@ -1,0 +1,1443 @@
+{
+  "name": "Do zero aos 5 km",
+  "hr_cap": null,
+  "pace_offset_sec": 0,
+  "weekly": {
+    "Ter": "Musculação (pernas pesado)",
+    "Qua": "Tênis",
+    "Sex": "Tênis",
+    "Dom": "Descanso"
+  },
+  "sessions": [
+    {
+      "id": "2026-11-05",
+      "date": "2026-11-05",
+      "weekday": "Qui",
+      "week": 0,
+      "kind": "walk",
+      "title": "Caminhada 20 min",
+      "spec": "walk:20",
+      "run_minutes": 0.0,
+      "total_minutes": 20.0,
+      "pace": null,
+      "steps": [
+        {
+          "type": "walk",
+          "sec": 1200,
+          "label": "Caminhada rápida"
+        }
+      ],
+      "note": "Depois da musculação. Esteira com 3 a 5% de inclinação ou rua."
+    },
+    {
+      "id": "2026-11-07",
+      "date": "2026-11-07",
+      "weekday": "Sáb",
+      "week": 0,
+      "kind": "run",
+      "title": "6x (1 corre / 2 caminha)",
+      "spec": "6x(1/2)",
+      "run_minutes": 6.0,
+      "total_minutes": 28.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 6,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 60,
+              "label": "Corre 1 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": "Primeira corrida. Anote o pace com a FC no teto para calibrar o plano."
+    },
+    {
+      "id": "2026-11-09",
+      "date": "2026-11-09",
+      "weekday": "Seg",
+      "week": 1,
+      "kind": "run",
+      "title": "8x (1 corre / 2 caminha)",
+      "spec": "8x(1/2)",
+      "run_minutes": 8.0,
+      "total_minutes": 34.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 8,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 60,
+              "label": "Corre 1 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-11-12",
+      "date": "2026-11-12",
+      "weekday": "Qui",
+      "week": 1,
+      "kind": "walk",
+      "title": "Caminhada 20 min",
+      "spec": "walk:20",
+      "run_minutes": 0.0,
+      "total_minutes": 20.0,
+      "pace": null,
+      "steps": [
+        {
+          "type": "walk",
+          "sec": 1200,
+          "label": "Caminhada rápida"
+        }
+      ],
+      "note": "Caminhada inclinada depois da musculação."
+    },
+    {
+      "id": "2026-11-14",
+      "date": "2026-11-14",
+      "weekday": "Sáb",
+      "week": 1,
+      "kind": "run",
+      "title": "8x (1,5 corre / 2 caminha)",
+      "spec": "8x(1.5/2)",
+      "run_minutes": 12.0,
+      "total_minutes": 38.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 8,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 90,
+              "label": "Corre 1,5 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-11-16",
+      "date": "2026-11-16",
+      "weekday": "Seg",
+      "week": 2,
+      "kind": "run",
+      "title": "7x (1,5 corre / 2 caminha)",
+      "spec": "7x(1.5/2)",
+      "run_minutes": 10.5,
+      "total_minutes": 34.5,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 7,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 90,
+              "label": "Corre 1,5 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-11-19",
+      "date": "2026-11-19",
+      "weekday": "Qui",
+      "week": 2,
+      "kind": "walk",
+      "title": "Caminhada 25 min",
+      "spec": "walk:25",
+      "run_minutes": 0.0,
+      "total_minutes": 25.0,
+      "pace": null,
+      "steps": [
+        {
+          "type": "walk",
+          "sec": 1500,
+          "label": "Caminhada rápida"
+        }
+      ],
+      "note": "Caminhada inclinada depois da musculação."
+    },
+    {
+      "id": "2026-11-21",
+      "date": "2026-11-21",
+      "weekday": "Sáb",
+      "week": 2,
+      "kind": "run",
+      "title": "6x (2 corre / 2 caminha)",
+      "spec": "6x(2/2)",
+      "run_minutes": 12.0,
+      "total_minutes": 34.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 6,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 120,
+              "label": "Corre 2 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-11-23",
+      "date": "2026-11-23",
+      "weekday": "Seg",
+      "week": 3,
+      "kind": "run",
+      "title": "6x (2 corre / 2 caminha)",
+      "spec": "6x(2/2)",
+      "run_minutes": 12.0,
+      "total_minutes": 34.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 6,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 120,
+              "label": "Corre 2 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-11-26",
+      "date": "2026-11-26",
+      "weekday": "Qui",
+      "week": 3,
+      "kind": "walk",
+      "title": "Caminhada 25 min",
+      "spec": "walk:25",
+      "run_minutes": 0.0,
+      "total_minutes": 25.0,
+      "pace": null,
+      "steps": [
+        {
+          "type": "walk",
+          "sec": 1500,
+          "label": "Caminhada rápida"
+        }
+      ],
+      "note": "Caminhada inclinada depois da musculação."
+    },
+    {
+      "id": "2026-11-28",
+      "date": "2026-11-28",
+      "weekday": "Sáb",
+      "week": 3,
+      "kind": "run",
+      "title": "5x (3 corre / 2 caminha)",
+      "spec": "5x(3/2)",
+      "run_minutes": 15.0,
+      "total_minutes": 35.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 5,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 180,
+              "label": "Corre 3 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-11-30",
+      "date": "2026-11-30",
+      "weekday": "Seg",
+      "week": 4,
+      "kind": "run",
+      "title": "5x (3 corre / 2 caminha)",
+      "spec": "5x(3/2)",
+      "run_minutes": 15.0,
+      "total_minutes": 35.0,
+      "pace": {
+        "fast": "7:45",
+        "slow": "8:30"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 5,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 180,
+              "label": "Corre 3 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-12-03",
+      "date": "2026-12-03",
+      "weekday": "Qui",
+      "week": 4,
+      "kind": "run",
+      "title": "4x (1 corre / 1,5 caminha)",
+      "spec": "4x(1/1.5)",
+      "run_minutes": 4.0,
+      "total_minutes": 20.0,
+      "pace": {
+        "fast": "8:15",
+        "slow": "9:00"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 4,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 60,
+              "label": "Corre 1 min"
+            },
+            {
+              "type": "walk",
+              "sec": 90,
+              "label": "Caminha 1,5 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": "Primeira corrida de quinta, depois da musculação."
+    },
+    {
+      "id": "2026-12-05",
+      "date": "2026-12-05",
+      "weekday": "Sáb",
+      "week": 4,
+      "kind": "run",
+      "title": "4x (4 corre / 2 caminha)",
+      "spec": "4x(4/2)",
+      "run_minutes": 16.0,
+      "total_minutes": 34.0,
+      "pace": {
+        "fast": "7:45",
+        "slow": "8:30"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 4,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 240,
+              "label": "Corre 4 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-12-07",
+      "date": "2026-12-07",
+      "weekday": "Seg",
+      "week": 5,
+      "kind": "run",
+      "title": "4x (3 corre / 2 caminha)",
+      "spec": "4x(3/2)",
+      "run_minutes": 12.0,
+      "total_minutes": 30.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 4,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 180,
+              "label": "Corre 3 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": "Semana de recuperação."
+    },
+    {
+      "id": "2026-12-10",
+      "date": "2026-12-10",
+      "weekday": "Qui",
+      "week": 5,
+      "kind": "walk",
+      "title": "Caminhada 20 min",
+      "spec": "walk:20",
+      "run_minutes": 0.0,
+      "total_minutes": 20.0,
+      "pace": null,
+      "steps": [
+        {
+          "type": "walk",
+          "sec": 1200,
+          "label": "Caminhada rápida"
+        }
+      ],
+      "note": "Semana de recuperação."
+    },
+    {
+      "id": "2026-12-12",
+      "date": "2026-12-12",
+      "weekday": "Sáb",
+      "week": 5,
+      "kind": "run",
+      "title": "4x (4 corre / 2 caminha)",
+      "spec": "4x(4/2)",
+      "run_minutes": 16.0,
+      "total_minutes": 34.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 4,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 240,
+              "label": "Corre 4 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": "Semana de recuperação."
+    },
+    {
+      "id": "2026-12-14",
+      "date": "2026-12-14",
+      "weekday": "Seg",
+      "week": 6,
+      "kind": "run",
+      "title": "4x (4,5 corre / 2 caminha)",
+      "spec": "4x(4.5/2)",
+      "run_minutes": 18.0,
+      "total_minutes": 36.0,
+      "pace": {
+        "fast": "7:45",
+        "slow": "8:30"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 4,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 270,
+              "label": "Corre 4,5 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-12-17",
+      "date": "2026-12-17",
+      "weekday": "Qui",
+      "week": 6,
+      "kind": "run",
+      "title": "4x (2 corre / 1,5 caminha)",
+      "spec": "4x(2/1.5)",
+      "run_minutes": 8.0,
+      "total_minutes": 24.0,
+      "pace": {
+        "fast": "8:15",
+        "slow": "9:00"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 4,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 120,
+              "label": "Corre 2 min"
+            },
+            {
+              "type": "walk",
+              "sec": 90,
+              "label": "Caminha 1,5 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-12-19",
+      "date": "2026-12-19",
+      "weekday": "Sáb",
+      "week": 6,
+      "kind": "run",
+      "title": "3x (6 corre / 2 caminha)",
+      "spec": "3x(6/2)",
+      "run_minutes": 18.0,
+      "total_minutes": 34.0,
+      "pace": {
+        "fast": "7:45",
+        "slow": "8:30"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 3,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 360,
+              "label": "Corre 6 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-12-21",
+      "date": "2026-12-21",
+      "weekday": "Seg",
+      "week": 7,
+      "kind": "run",
+      "title": "3x (6 corre / 2 caminha)",
+      "spec": "3x(6/2)",
+      "run_minutes": 18.0,
+      "total_minutes": 34.0,
+      "pace": {
+        "fast": "7:45",
+        "slow": "8:30"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 3,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 360,
+              "label": "Corre 6 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-12-24",
+      "date": "2026-12-24",
+      "weekday": "Qui",
+      "week": 7,
+      "kind": "walk",
+      "title": "Caminhada 20 min",
+      "spec": "walk:20",
+      "run_minutes": 0.0,
+      "total_minutes": 20.0,
+      "pace": null,
+      "steps": [
+        {
+          "type": "walk",
+          "sec": 1200,
+          "label": "Caminhada rápida"
+        }
+      ],
+      "note": "Opcional (véspera de Natal)."
+    },
+    {
+      "id": "2026-12-26",
+      "date": "2026-12-26",
+      "weekday": "Sáb",
+      "week": 7,
+      "kind": "run",
+      "title": "3x (7 corre / 2 caminha)",
+      "spec": "3x(7/2)",
+      "run_minutes": 21.0,
+      "total_minutes": 37.0,
+      "pace": {
+        "fast": "7:45",
+        "slow": "8:30"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 3,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 420,
+              "label": "Corre 7 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-12-28",
+      "date": "2026-12-28",
+      "weekday": "Seg",
+      "week": 8,
+      "kind": "run",
+      "title": "2x (10 corre / 2 caminha)",
+      "spec": "2x(10/2)",
+      "run_minutes": 20.0,
+      "total_minutes": 34.0,
+      "pace": {
+        "fast": "7:45",
+        "slow": "8:30"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 2,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 600,
+              "label": "Corre 10 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2026-12-31",
+      "date": "2026-12-31",
+      "weekday": "Qui",
+      "week": 8,
+      "kind": "run",
+      "title": "3x (3 corre / 1 caminha)",
+      "spec": "3x(3/1)",
+      "run_minutes": 9.0,
+      "total_minutes": 22.0,
+      "pace": {
+        "fast": "8:15",
+        "slow": "9:00"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 3,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 180,
+              "label": "Corre 3 min"
+            },
+            {
+              "type": "walk",
+              "sec": 60,
+              "label": "Caminha 1 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": "Pode pular (réveillon)."
+    },
+    {
+      "id": "2027-01-02",
+      "date": "2027-01-02",
+      "weekday": "Sáb",
+      "week": 8,
+      "kind": "run",
+      "title": "2x (12 corre / 2 caminha)",
+      "spec": "2x(12/2)",
+      "run_minutes": 24.0,
+      "total_minutes": 38.0,
+      "pace": {
+        "fast": "7:45",
+        "slow": "8:30"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 2,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 720,
+              "label": "Corre 12 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2027-01-04",
+      "date": "2027-01-04",
+      "weekday": "Seg",
+      "week": 9,
+      "kind": "run",
+      "title": "2x (12 corre / 2 caminha)",
+      "spec": "2x(12/2)",
+      "run_minutes": 24.0,
+      "total_minutes": 38.0,
+      "pace": {
+        "fast": "7:45",
+        "slow": "8:30"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 2,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 720,
+              "label": "Corre 12 min"
+            },
+            {
+              "type": "walk",
+              "sec": 120,
+              "label": "Caminha 2 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2027-01-07",
+      "date": "2027-01-07",
+      "weekday": "Qui",
+      "week": 9,
+      "kind": "run",
+      "title": "3x (4 corre / 1 caminha)",
+      "spec": "3x(4/1)",
+      "run_minutes": 12.0,
+      "total_minutes": 25.0,
+      "pace": {
+        "fast": "8:15",
+        "slow": "9:00"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 3,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 240,
+              "label": "Corre 4 min"
+            },
+            {
+              "type": "walk",
+              "sec": 60,
+              "label": "Caminha 1 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2027-01-09",
+      "date": "2027-01-09",
+      "weekday": "Sáb",
+      "week": 9,
+      "kind": "run",
+      "title": "20 min contínuos",
+      "spec": "run:20",
+      "run_minutes": 20.0,
+      "total_minutes": 30.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "run",
+          "sec": 1200,
+          "label": "Corrida contínua 20 min"
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": "Primeiro bloco contínuo. Se a FC passar do teto, caminhe 1 min e siga."
+    },
+    {
+      "id": "2027-01-11",
+      "date": "2027-01-11",
+      "weekday": "Seg",
+      "week": 10,
+      "kind": "run",
+      "title": "22 min contínuos",
+      "spec": "run:22",
+      "run_minutes": 22.0,
+      "total_minutes": 32.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "run",
+          "sec": 1320,
+          "label": "Corrida contínua 22 min"
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2027-01-14",
+      "date": "2027-01-14",
+      "weekday": "Qui",
+      "week": 10,
+      "kind": "run",
+      "title": "3x (5 corre / 1 caminha)",
+      "spec": "3x(5/1)",
+      "run_minutes": 15.0,
+      "total_minutes": 28.0,
+      "pace": {
+        "fast": "8:15",
+        "slow": "9:00"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "repeat",
+          "n": 3,
+          "steps": [
+            {
+              "type": "run",
+              "sec": 300,
+              "label": "Corre 5 min"
+            },
+            {
+              "type": "walk",
+              "sec": 60,
+              "label": "Caminha 1 min"
+            }
+          ]
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2027-01-16",
+      "date": "2027-01-16",
+      "weekday": "Sáb",
+      "week": 10,
+      "kind": "run",
+      "title": "30 min contínuos",
+      "spec": "run:30",
+      "run_minutes": 30.0,
+      "total_minutes": 40.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "run",
+          "sec": 1800,
+          "label": "Corrida contínua 30 min"
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": "Marco: 30 minutos contínuos."
+    },
+    {
+      "id": "2027-01-18",
+      "date": "2027-01-18",
+      "weekday": "Seg",
+      "week": 11,
+      "kind": "run",
+      "title": "25 min contínuos",
+      "spec": "run:25",
+      "run_minutes": 25.0,
+      "total_minutes": 35.0,
+      "pace": {
+        "fast": "7:45",
+        "slow": "8:30"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "run",
+          "sec": 1500,
+          "label": "Corrida contínua 25 min"
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2027-01-21",
+      "date": "2027-01-21",
+      "weekday": "Qui",
+      "week": 11,
+      "kind": "run",
+      "title": "15 min contínuos",
+      "spec": "run:15",
+      "run_minutes": 15.0,
+      "total_minutes": 25.0,
+      "pace": {
+        "fast": "8:15",
+        "slow": "9:00"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "run",
+          "sec": 900,
+          "label": "Corrida contínua 15 min"
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2027-01-23",
+      "date": "2027-01-23",
+      "weekday": "Sáb",
+      "week": 11,
+      "kind": "run",
+      "title": "33 min contínuos",
+      "spec": "run:33",
+      "run_minutes": 33.0,
+      "total_minutes": 43.0,
+      "pace": {
+        "fast": "8:00",
+        "slow": "8:45"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "run",
+          "sec": 1980,
+          "label": "Corrida contínua 33 min"
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2027-01-25",
+      "date": "2027-01-25",
+      "weekday": "Seg",
+      "week": 12,
+      "kind": "run",
+      "title": "25 min contínuos",
+      "spec": "run:25",
+      "run_minutes": 25.0,
+      "total_minutes": 35.0,
+      "pace": {
+        "fast": "7:45",
+        "slow": "8:30"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "run",
+          "sec": 1500,
+          "label": "Corrida contínua 25 min"
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "2027-01-28",
+      "date": "2027-01-28",
+      "weekday": "Qui",
+      "week": 12,
+      "kind": "run",
+      "title": "15 min contínuos",
+      "spec": "run:15",
+      "run_minutes": 15.0,
+      "total_minutes": 25.0,
+      "pace": {
+        "fast": "8:15",
+        "slow": "9:00"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "run",
+          "sec": 900,
+          "label": "Corrida contínua 15 min"
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": "Bem leve, véspera do teste."
+    },
+    {
+      "id": "2027-01-30",
+      "date": "2027-01-30",
+      "weekday": "Sáb",
+      "week": 12,
+      "kind": "run",
+      "title": "5 km contínuos",
+      "spec": "run:5km",
+      "run_minutes": 39.0,
+      "total_minutes": 49.0,
+      "pace": {
+        "fast": "7:30",
+        "slow": "8:00"
+      },
+      "steps": [
+        {
+          "type": "warmup",
+          "sec": 300,
+          "label": "Aquecimento caminhando"
+        },
+        {
+          "type": "run",
+          "meters": 5000,
+          "sec": 2340,
+          "label": "Corrida contínua 5 km"
+        },
+        {
+          "type": "cooldown",
+          "sec": 300,
+          "label": "Desaquecimento caminhando"
+        }
+      ],
+      "note": "Meta: 5 km contínuos, no ritmo que for."
+    }
+  ]
+}

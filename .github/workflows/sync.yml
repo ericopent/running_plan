@@ -1,0 +1,85 @@
+name: Sincronizar Garmin e publicar
+
+on:
+  schedule:
+    - cron: "10 9 * * *"   # todo dia, 06:10 em Brasília
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      GARMIN_TOKENS: ${{ secrets.GARMIN_TOKENS }}
+      HAS_PAT: ${{ secrets.SECRETS_PAT != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Gerar plano
+        run: python scripts/build_plan.py
+
+      - name: Buscar atividades do Garmin
+        if: env.GARMIN_TOKENS != ''
+        env:
+          TOKENS_OUT: ${{ runner.temp }}/tokens.json
+        run: python scripts/fetch_garmin.py
+
+      - name: Enviar próximos treinos ao Garmin
+        if: env.GARMIN_TOKENS != ''
+        run: python scripts/push_garmin.py
+
+      - name: Guardar token renovado no Secret
+        if: env.GARMIN_TOKENS != '' && env.HAS_PAT == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.SECRETS_PAT }}
+        run: |
+          f="${{ runner.temp }}/tokens.json"
+          if [ -s "$f" ]; then gh secret set GARMIN_TOKENS --repo "$GITHUB_REPOSITORY" < "$f"; fi
+          rm -f "$f"
+
+      - name: Salvar dados no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Atualiza dados do Garmin [skip ci]"
+          git push
+
+      - name: Montar site (dados criptografados com SITE_PASSWORD)
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+        run: |
+          mkdir -p _site/data
+          cp site/* _site/
+          python scripts/encrypt_site_data.py data _site/data
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: sync
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
